@@ -1,0 +1,24 @@
+{
+  "name": "megalogger",
+  "description": "Megalogger client library",
+  "homepage": "http://megaads.vn",
+  "author": {
+    "name": "Megaads",
+    "email": "info.megaads@gmail.com"
+  },
+  "keywords": [
+    "megalogger client",
+    "megaads-vn",
+    "megalogger"
+  ],
+  "license": "MIT",
+  "version": "1.0.3",
+  "contributors": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/megaads-vn/nodejs-megalogger-client"
+  },
+  "dependencies": {
+    "jsonwebtoken": "7.*"
+  }
+}
