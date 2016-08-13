@@ -3,7 +3,7 @@ var http = require('http');
 module.exports = MegaLogger;
 function MegaLogger(initData) {
     this.source = initData.source;
-    this.token = jwt.sign({audience: initData.apiKey}, 'megadev_secret', {algorithm: 'HS512'});
+    this.token = jwt.sign({audience: initData.apiKey}, 'megadev_secret', {expiresIn: 30}, {algorithm: 'HS512'});
 
     this.log = function (data, level) {
         console.log(this.token);
