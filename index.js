@@ -23,8 +23,8 @@ function MegaLogger(initData) {
         };
         var strData = JSON.stringify(dataLog);
         var options = {
-            host: 'logger.megaads.vn',
-            port: 8800,
+            host: 'hamster.megaads.vn',
+            port: 8161,
             path: '/api/message?destination=queue://logger',
             method: 'POST',
             headers: {
