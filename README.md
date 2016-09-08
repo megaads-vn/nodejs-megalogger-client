@@ -19,7 +19,7 @@ var Megalogger = require('megalogger');
             source: source
         };
  // Log
- var dataLog = [{data: "Message test"}];
+ var dataLog = {title: "This is title", body: "Message test"};
 
  // level for log include: info, debug, warning, error, critical 
  var level = 'info';
